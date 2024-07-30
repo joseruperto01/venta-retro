@@ -1,0 +1,485 @@
+nav {
+    /*border: 2px ridge black;*/
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    background-color:maroon;  /*el "rgba" tiene la opcion de opasidad que esta ubicada en el cuarto numero que use para hacer su color de fondo del navegador transparente*/
+    transform: translate(1px, -7px);
+
+}
+
+.nav-descripcion {
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    background-color:maroon;  /*el "rgba" tiene la opcion de opasidad que esta ubicada en el cuarto numero que use para hacer su color de fondo del navegador transparente*/
+    transform: translate(1px, -7px);
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;  /*"list-style-type: none" me sirvio paraquitarle los puntitos a la lista desordenada*/
+}
+
+nav ul li {
+    margin-left: 1rem;
+    /*border: 1px solid white;*/
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.seccion1 {
+    height: 100vh;
+    width: 100vw;
+    margin-top: 4ch;
+}
+
+.seccion2 {
+    height: 100vh;
+    width: 100vw;
+}
+
+textarea{
+    display: block;
+    color:darkred;
+    font-size: 50%;
+    background-color:bisque;
+    resize: none;
+  }
+
+.animacion1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 2ch;
+}
+
+.boton {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 5px;
+}
+
+.juegos {
+    background-color: orangered;
+    height: 22ch;
+}
+
+.cajita1 {
+    background-color:lightgray;
+    width: 240px;
+    height: 15ch;
+    float: left;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.precio {
+    background-color: lightgray;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+}
+
+.cajita1 img {
+    width: 240px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.cajita2 {
+    background-color:lightgray;
+    width: 240px;
+    height: 15ch;
+    float: left;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cajita2 img {
+    width: 240px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+
+.cajita3 {
+    background-color:lightgray;
+    width: 240px;
+    height: 15ch;
+    float: left;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cajita3 img {
+    width: 240px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.cajita4 {
+    background-color:lightgray;
+    width: 240px;
+    height: 15ch;
+    float: left;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cajita4 img {
+    width: 240px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.cajita5 {
+    background-color:white;
+    width: 14ch;
+    height: 50px;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.maquinitas {
+    background-color: orangered;
+    height: 22ch;
+}
+
+.cajita6 {
+    background-color:lightgray;
+    width: 240px;
+    height: 15ch;
+    float: left;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cajita6 img {
+    width: 240px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.cajita7 {
+    background-color:lightgray;
+    width: 240px;
+    height: 15ch;
+    float: left;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cajita7 img {
+    width: 240px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.cajita8 {
+    background-color:lightgray;
+    width: 240px;
+    height: 17ch;
+    float: left;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cajita8 img {
+    width: 240px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.cajita9 {
+    background-color:lightgray;
+    width: 240px;
+    height: 15ch;
+    float: left;
+    margin: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cajita9 img {
+    width: 240px;
+    height: 280px;
+    border-radius: 10px;
+}
+
+.cajita10 {
+    background-color:white;
+    width: 14ch;
+    height: 50px;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+body {
+   background-color: black;
+}
+
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+
+.titulo1 {
+    background-color: crimson;
+    height: 5ch;
+    width: 100%;
+    align-items:center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titulo2 {
+    margin-top: 6ch;
+}
+
+.titulo3 {
+    margin-top: 21ch;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    /*height: 100vh;*/
+    /*background: lightgrey;*/
+    user-select: none;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    width: 60vw;
+}
+
+.seccion3 {
+    height: 80vh;
+    width: 100vw;
+    margin-top: 5ch;
+}
+
+.seccion3 h1 {
+    text-align: center;
+}
+
+.seccion4 {
+    height: 65vh;
+    width: 100vw;
+}
+
+.seccion5 {
+    height: 60vh;
+    width: 100vw;
+}
+
+footer {
+    /*background-color: darkviolet;*/
+    height: 22vh;
+    width: 100%;
+    transform: translate(-1px, -1px);
+    margin-top: 8%;
+}
+ 
+.f0 {
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 10rem;
+    width: 100vw;
+}
+ 
+.f1 {
+    /*border: 1px solid blue;*/
+    background-color:rgb(252, 119, 71);
+    height: 162px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+ 
+.f2 {
+    /*border: 1px solid violet;*/
+    background-color:rgb(252, 119, 71);
+    height: 162px;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+ 
+.f3 {
+    background-color:rgb(253, 141, 100);
+    /*border: 1px solid white;*/
+    height: 30px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transform: translate(1px, -7px);
+}
+ 
+.ftexto1 {
+    color: black;
+    /*border: 1px solid aqua;*/
+    width: 100px;
+    font-size: medium;
+}
+
+.ftexto2 {
+    color: black;
+    font-size: medium;
+}
+
+.descripcion {
+    height: 40ch;
+    width: 100vw;
+    margin-top: 5ch;
+}
+
+.imagen {
+    background-color:lightgray;
+    width: 33ch;
+    height: 490px;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+
+}
+
+.imagen img {
+    width: 33ch;
+    height: 490px;
+    border-radius: 10px;
+}
+
+.naranja {
+    background-color: orangered;
+    height: 32ch;
+    width: 41vw;
+    /*margin-left: 90px;*/
+    float: left;
+}
+
+.naranja2 {
+    background-color: orangered;
+    float: right;
+    height: 32ch;
+    width: 59vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /*margin-bottom: 10%;*/
+}
+
+.N2texto1 {
+    color: black;
+    /*border: 1px solid aqua;*/
+    font-size: 20px;
+    text-align: center;
+}
+
+.N2texto2 {
+    font-size: medium;
+    width: 27rem;
+    color: black;
+    text-align: center;
+    /*background-color: aqua;*/
+    flex-direction: column;
+}
+
+
+.Ncontenedor {
+    /*border: 1px solid black;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 20rem;
+    width: 100vw;
+}
+
+.Ncontenedor2 {
+    /*border: 1px solid blue;*/
+    background-color:rgb(252, 119, 71);
+    height: 23rem;
+    width: 55%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Ncontenedor3 {
+    /*border: 1px solid violet;*/
+    background-color:rgb(252, 119, 71);
+    height: 23rem;
+    width: 35%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 10px;
+}
+
+input {
+      width: 10rem;
+      height: 2rem;
+      border-radius: 15px;
+      text-align: center;
+      font-size: 1rem;
+}
+
+.container {
+    width: 80%;
+    height: 400px;
+    padding: 15px;
+    background-color: lightgray;
+    /*position: absolute;*/
+    top: 50%;
+    left: 50px;
+    /*transform: translate(10%, -15%);*/
+    margin: auto;
+
+}
+
+.vicktor {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    /*cursor: pointer;*/
+
+}
+
+h3 {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
