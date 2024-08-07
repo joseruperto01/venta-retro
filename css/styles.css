@@ -5,7 +5,6 @@ nav {
     height: 15%;
     background-color:maroon;  /*el "rgba" tiene la opcion de opasidad que esta ubicada en el cuarto numero que use para hacer su color de fondo del navegador transparente*/
     transform: translate(1px, -7px);
-
 }
 
 .nav-descripcion {
@@ -46,13 +45,13 @@ textarea{
     font-size: 50%;
     background-color:bisque;
     resize: none;
-  }
+}
 
 .animacion1 {
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-top: 2ch;
+    margin-top: 3ch;
 }
 
 .boton {
@@ -64,17 +63,19 @@ textarea{
 
 .juegos {
     background-color: orangered;
-    height: 22ch;
+    height: 350px;
 }
 
 .cajita1 {
     background-color:lightgray;
     width: 240px;
-    height: 15ch;
+    height: 280px;
     float: left;
     margin: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .precio {
@@ -95,11 +96,13 @@ textarea{
 .cajita2 {
     background-color:lightgray;
     width: 240px;
-    height: 15ch;
+    height: 280px;
     float: left;
     margin: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .cajita2 img {
@@ -112,11 +115,13 @@ textarea{
 .cajita3 {
     background-color:lightgray;
     width: 240px;
-    height: 15ch;
+    height: 280px;
     float: left;
     margin: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .cajita3 img {
@@ -128,11 +133,13 @@ textarea{
 .cajita4 {
     background-color:lightgray;
     width: 240px;
-    height: 15ch;
+    height: 280px;
     float: left;
     margin: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .cajita4 img {
@@ -154,17 +161,19 @@ textarea{
 
 .maquinitas {
     background-color: orangered;
-    height: 22ch;
+    height: 350px;
 }
 
 .cajita6 {
     background-color:lightgray;
     width: 240px;
-    height: 15ch;
+    height: 280px;
     float: left;
     margin: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .cajita6 img {
@@ -176,11 +185,13 @@ textarea{
 .cajita7 {
     background-color:lightgray;
     width: 240px;
-    height: 15ch;
+    height: 280px;
     float: left;
     margin: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .cajita7 img {
@@ -192,11 +203,13 @@ textarea{
 .cajita8 {
     background-color:lightgray;
     width: 240px;
-    height: 17ch;
+    height: 280px;
     float: left;
     margin: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .cajita8 img {
@@ -208,11 +221,13 @@ textarea{
 .cajita9 {
     background-color:lightgray;
     width: 240px;
-    height: 15ch;
+    height: 280px;
     float: left;
     margin: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 .cajita9 img {
@@ -299,6 +314,7 @@ hr {
 .seccion5 {
     height: 60vh;
     width: 100vw;
+    margin-top: 9px;
 }
 
 footer {
@@ -369,16 +385,15 @@ footer {
 
 .imagen {
     background-color:lightgray;
-    width: 33ch;
+    width: 34ch;
     height: 490px;
-    float: left;
     margin: 10px;
+    margin-left: 28px;
     border-radius: 10px;
-
 }
 
 .imagen img {
-    width: 33ch;
+    width: 34ch;
     height: 490px;
     border-radius: 10px;
 }
@@ -386,7 +401,7 @@ footer {
 .naranja {
     background-color: orangered;
     height: 32ch;
-    width: 41vw;
+    width: 45vw;
     /*margin-left: 90px;*/
     float: left;
 }
@@ -395,15 +410,63 @@ footer {
     background-color: orangered;
     float: right;
     height: 32ch;
-    width: 59vw;
+    width: 55vw;
     align-items: center;
     justify-content: center;
     display: flex;
     /*margin-bottom: 10%;*/
 }
 
+.info{
+    /*border: 5px solid white;*/
+    width: 100%;
+    height: 30%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.div1{
+    /*border: 3px solid yellow;*/
+    height: 330px;
+    width: 260px;   
+    text-align: center;
+}
+
+.div1 a{
+    color:blue;
+}
+
+.p{
+    font-size: 20px;
+    margin-top: -8px;
+}
+
+.pp{
+    font-size: 22px;
+}
+
+.ppp{
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.pppp{
+    font-size: 17px;
+}
+
+.div1 h4{
+    margin-top: 25px;
+}
+
+.div1 hr{
+    width: 200px;
+}
+
+
+
 .N2texto1 {
-    color: black;
+    color: white;
     /*border: 1px solid aqua;*/
     font-size: 20px;
     text-align: center;
@@ -411,11 +474,11 @@ footer {
 
 .N2texto2 {
     font-size: medium;
-    width: 27rem;
-    color: black;
+    width: 500px;
+    color: white;
     text-align: center;
-    /*background-color: aqua;*/
-    flex-direction: column;
+    /*background-color:blue;*/
+    /*flex-direction: column;*/
 }
 
 
@@ -429,57 +492,241 @@ footer {
 }
 
 .Ncontenedor2 {
-    /*border: 1px solid blue;*/
     background-color:rgb(252, 119, 71);
     height: 23rem;
-    width: 55%;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-.Ncontenedor3 {
-    /*border: 1px solid violet;*/
-    background-color:rgb(252, 119, 71);
-    height: 23rem;
-    width: 35%;
+    width: 40%;
+    /*border: 3px solid white;*/
     align-items: center;
     justify-content: center;
     display: flex;
     margin-right: 10px;
 }
 
-input {
-      width: 10rem;
-      height: 2rem;
-      border-radius: 15px;
-      text-align: center;
-      font-size: 1rem;
+.Ncontenedor3 {
+    background-color:rgb(252, 119, 71);
+    height: 23rem;
+    width: 40%;
+    /*border: 3px solid purple;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
-.container {
-    width: 80%;
-    height: 400px;
-    padding: 15px;
-    background-color: lightgray;
-    /*position: absolute;*/
-    top: 50%;
-    left: 50px;
-    /*transform: translate(10%, -15%);*/
-    margin: auto;
-
+input{
+    width: 9rem;
+    height: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1rem;
 }
 
-.vicktor {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    /*cursor: pointer;*/
+.envios{
+    width: 10rem;
+}
 
+.calcularP{
+    width: 200px;
+}
+
+.comprar{
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
 }
 
 h3 {
     text-align: center;
     color: white;
     font-size: 2rem;
+    margin-left: 8px;
+}
+
+.contenedor-slider
+{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1200px;
+    padding: 0px 40px;
+   
+}
+
+.icono-izquierdo, .icono-derecho
+{
+    width: 5%;
+    z-index: 1;
+}
+
+.icono-izquierdo{
+    margin-left: 50px;
+}
+
+.icono-izquierdo img{
+   margin-left: 20px;
+}
+
+.icono-izquierdo img, .icono-derecho img
+{
+   width: 100%;
+   cursor: pointer;
+}
+
+.slider-screen
+{
+    width: 90%;
+    border-radius: 12px;
+    box-shadow: 5px 5px 25px black;
+    overflow: hidden;
+    margin-left: 18px;
+}
+
+.slider
+{
+    display: flex;
+    width: 500%;
+}
+
+.slider .img-slider
+{
+   width: 30%;
+   height: 500px;
+}
+
+@media(max-width:1040px){
+    .cajita1{
+        width: 220px;
+        height: 270px;
+    }
+    .cajita2{
+        width: 220px;
+        height: 270px;
+    }
+    .cajita3{
+        width: 220px;
+        height: 270px;
+    }
+    .cajita4{
+        width: 220px;
+        height: 270px;
+    }
+    .cajita5{
+        width: 13ch;
+    }
+    .cajita6{
+        width: 220px;
+        height: 270px;
+    }
+    .cajita7{
+        width: 220px;
+        height: 270px;
+    }
+    .cajita8{
+        width: 220px;
+        height: 270px;
+    }
+    .cajita9{
+        width: 220px;
+        height: 270px;
+    }
+    .cajita10{
+        width: 13ch;
+    }
+ /***************************/
+    .cajita1 img{
+        width: 220px;
+        height: 270px;
+    } 
+    .cajita2 img{
+        width: 220px;
+        height: 270px;
+    } 
+    .cajita3 img{
+        width: 220px;
+        height: 270px;
+    } 
+    .cajita4 img{
+        width: 220px;
+        height: 270px;
+    } 
+    .cajita6 img{
+        width: 220px;
+        height: 270px;
+    } 
+    .cajita7 img{
+        width: 220px;
+        height: 270px;
+    } 
+    .cajita8 img{
+        width: 220px;
+        height: 270px;
+    } 
+    .cajita9 img{
+        width: 220px;
+        height: 270px;
+    } 
+ /***************************/
+    .juegos{
+        height: 340px;
+    }
+ /***************************/
+    .imagen{
+        width: 25ch;
+        height: 450px;
+    }
+    .imagen img{
+        width: 25ch;
+        height: 450px;
+    }
+    .naranja{
+        height: 30ch;
+        width: 46vw;
+    }
+    .naranja2{
+        height: 30ch;
+        width: 54vw;
+    }
+    hr{
+        margin-top: -35px;
+    }
+    .div1 hr{
+        margin-top: 10px;
+        width: 140px;
+    }
+    .Ncontenedor2{
+        width: 230px;
+    }
+    .Ncontenedor3{
+        width: 230px;
+    }
+    .slider .img-slider{
+        width: 20%;
+        height: 450px;
+    }
+    h3 {
+        margin-left: -8px;
+    }
+    .icono-izquierdo{
+        margin-left: 5px;
+    }
+    .icono-izquierdo img{
+       margin-left: 5px;
+    }
+    .slider-screen{
+       margin-left: 1px;
+    }
+    .p{
+        font-size: 18px;
+    }
+    .pp{
+        font-size: 20px;
+    }
+    .ppp{
+        font-size: 18px;
+    }
+    .pppp{
+        font-size: 16px;
+    }
+    .comprar{
+        margin-top: 25px;
+    }
 }
