@@ -170,7 +170,7 @@ textarea{
 
 .juegos {
     background-color: orangered;
-    height: 500px;
+    height: 505px;
 }
 
 .cajita1 {
@@ -303,7 +303,7 @@ textarea{
 
 .cajita6 {
     background-color:lightgray;
-    width: 240px;
+    width: 280px;
     height: 280px;
     float: left;
     margin: 10px;
@@ -314,14 +314,14 @@ textarea{
 }
 
 .cajita6 img {
-    width: 240px;
+    width: 280px;
     height: 280px;
     border-radius: 10px;
 }
 
 .cajita7 {
     background-color:lightgray;
-    width: 240px;
+    width: 280px;
     height: 280px;
     float: left;
     margin: 10px;
@@ -332,14 +332,14 @@ textarea{
 }
 
 .cajita7 img {
-    width: 240px;
+    width: 280px;
     height: 280px;
     border-radius: 10px;
 }
 
 .cajita8 {
     background-color:lightgray;
-    width: 240px;
+    width: 280px;
     height: 280px;
     float: left;
     margin: 10px;
@@ -350,14 +350,14 @@ textarea{
 }
 
 .cajita8 img {
-    width: 240px;
+    width: 280px;
     height: 280px;
     border-radius: 10px;
 }
 
 .cajita9 {
     background-color:lightgray;
-    width: 240px;
+    width: 280px;
     height: 280px;
     float: left;
     margin: 10px;
@@ -368,7 +368,7 @@ textarea{
 }
 
 .cajita9 img {
-    width: 240px;
+    width: 280px;
     height: 280px;
     border-radius: 10px;
 }
@@ -434,7 +434,7 @@ hr {
 }
 
 .seccion3 {
-    height: 80vh;
+    height: 105vh;
     width: 100vw;
     margin-top: 5ch;
 }
@@ -444,12 +444,12 @@ hr {
 }
 
 .seccion4 {
-    height: 65vh;
+    height: 90vh;
     width: 100vw;
 }
 
 .seccion5 {
-    height: 60vh;
+    height: 90vh;
     width: 100vw;
     margin-top: 9px;
 }
@@ -802,10 +802,6 @@ h3 {
         width: 220px;
         height: 270px;
     } 
- /***************************/
-    .juegos{
-        height: 340px;
-    }
  /***************************/
     .imagen{
         width: 25ch;
