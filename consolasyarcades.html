@@ -12,6 +12,38 @@
             <li><a style="color: white;" href="index.html">menu</a></li>
             <li><a style="color: white;" href="juegos.html">juegos</a></li>
             <li><a style="color: white;" href="consolasyarcades.html">consoles y arcades</a></li>
+
+            <div class="container-icon">
+                <div class="container-cart-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                    </svg>
+                    <div class="count-products">
+                        <span id="contador-productos">0</span>
+                    </div>
+                </div>
+                
+
+                <div class="container-cart-products hidden-cart">
+                    <div class="row-product">
+                        <div class="cart-product">
+                            <div class="info-cart-product">
+                             <span class="cantidad-producto-carrito">1</span>
+                             <p class="titulo-producto-carrito">Super Mario 64</p>
+                             <span class="precio-producto-carrito">$20.000</span>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div class="cart-total">
+                        <h4>total:</h4>
+                        <span class="total-pagar">$20.000</span>
+                    </div>
+                </div>
+            </div>
         </ul>
     </nav>!--->
     <section class="seccion3">
@@ -19,26 +51,34 @@
        <div class="juegos">
         <div class="cajita1">
             <a href="./descripciones/consola-nes.html"><img alt="portadadejuego" src="./img/consola-NES.jpeg"></a>
-            <div class="precio">
-                $22.000
-            </div>   
+            <div class="info-product">
+                <h2>Consola NES</h2>
+                <p class="price">$22.000</p>
+                <button class="btn-add-cart">añadir al carito</button>
+              </div>   
           </div>
           <div class="cajita2">
               <a href="./descripciones/arcade-pacman.html"><img alt="portadadejuego" src="./img/pacman-arcade.jpg"></a>
-              <div class="precio">
-                $149.250
+              <div class="info-product">
+                <h2>Pacman Arcade</h2>
+                <p class="price">$149.250</p>
+                <button class="btn-add-cart">añadir al carito</button>
               </div> 
           </div>
           <div class="cajita3">
               <a href="./descripciones/consola-ps1.html"><img alt="portadadejuego" src="./img/consola-PS1.jpg"></a>
-              <div class="precio">
-                $30.000
+              <div class="info-product">
+                <h2>PlayStation</h2>
+                <p class="price">$30.000</p>
+                <button class="btn-add-cart">añadir al carito</button>
               </div> 
           </div>
           <div class="cajita4">
               <a href="./descripciones/consola-segagenesis.html"><img alt="portadadejuego" src="./img/consola-segaGenesis.jpg"></a>
-              <div class="precio">
-                $31.000
+              <div class="info-product">
+                <h2>Sega Genesis</h2>
+                <p class="price">$31.000</p>
+                <button class="btn-add-cart">añadir al carito</button>
               </div> 
           </div>
        </div>
@@ -48,27 +88,35 @@
         <div class="juegos">
           <div class="cajita1">
               <a href="./descripciones/atari-2600.html"><img alt="portadadejuego" src="./img/consola-atari2600.jpg"></a>
-                <div class="precio">
-                    $20.000
-                </div>    
+              <div class="info-product">
+                <h2>Atari-2600</h2>
+                <p class="price">$20.000</p>
+                <button class="btn-add-cart">añadir al carito</button>
+              </div>   
             </div>
             <div class="cajita2">
                 <a href="./descripciones/game-y-watch.html"><img alt="portadadejuego" src="./img/consola-game y watch.jpg"></a>
-                <div class="precio">
-                    $56.314
-                </div> 
+                <div class="info-product">
+                    <h2>Game Y Watch</h2>
+                    <p class="price">$56.314</p>
+                    <button class="btn-add-cart">añadir al carito</button>
+                  </div>
             </div>
             <div class="cajita3">
                 <a href="./descripciones/game-boy.html"><img alt="portadadejuego" src="./img/consola-GameBoy.jpg"></a>
-                <div class="precio">
-                    $27.500
-                </div> 
+                <div class="info-product">
+                    <h2>GameBoy</h2>
+                    <p class="price">$27.000</p>
+                    <button class="btn-add-cart">añadir al carito</button>
+                  </div> 
             </div>
             <div class="cajita4">
                 <a href="./descripciones/arcade-mortal-kombat2.html"><img alt="portadadejuego" src="./img/arcade-mortalkombat2.jpg"></a>
-                <div class="precio">
-                    $147.200
-                </div> 
+                <div class="info-product">
+                    <h2>Mortal Kombat Arcade</h2>
+                    <p class="price">$147.200</p>
+                    <button class="btn-add-cart">añadir al carito</button>
+                  </div>
             </div>
         </div>
     </section>
@@ -77,9 +125,11 @@
         <div class="juegos">
           <div class="cajita1">
               <a href="./descripciones/arcade-streetfighter2.html"><img alt="portadadejuego" src="./img/arcade-streetfighter2.jfif"></a>
-                <div class="precio">
-                    $149.250
-                </div>    
+              <div class="info-product">
+                <h2>Arcade Street Fighter 2</h2>
+                <p class="price">$149.250</p>
+                <button class="btn-add-cart">añadir al carito</button>
+              </div> 
             </div>
             <!--<div class="cajita2">
                 <img alt="portadadejuego" src="">
@@ -121,3 +171,7 @@
             <p class="ftexto2">copyright © Venta Retro 2024 todos los derechos reservados</p>
         </div>
     </footer>
+
+    <script src="./jaascript/app.js"></script>
+</body>
+</html>
