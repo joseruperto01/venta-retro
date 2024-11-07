@@ -12,6 +12,38 @@
             <li><a style="color: white;" href="index.html">menu</a></li>
             <li><a style="color: white;" href="juegos.html">juegos</a></li>
             <li><a style="color: white;" href="consolasyarcades.html">consoles y arcades</a></li>
+
+            <div class="container-icon">
+                <div class="container-cart-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                    </svg>
+                    <div class="count-products">
+                        <span id="contador-productos">0</span>
+                    </div>
+                </div>
+                
+
+                <div class="container-cart-products hidden-cart">
+                    <div class="row-product">
+                        <div class="cart-product">
+                            <div class="info-cart-product">
+                             <span class="cantidad-producto-carrito">1</span>
+                             <p class="titulo-producto-carrito">Super Mario 64</p>
+                             <span class="precio-producto-carrito">$20.000</span>
+                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div class="cart-total">
+                        <h4>total:</h4>
+                        <span class="total-pagar">$20.000</span>
+                    </div>
+                </div>
+            </div>
         </ul>
     </nav>!--->
     <section class="seccion3">
@@ -19,26 +51,34 @@
        <div class="juegos">
         <div class="cajita1">
             <a href="./descripciones/supermario64.html"><img alt="portadadejuego" src="./img/mario.jpg"></a>
-            <div class="precio">
-                $28.000
-            </div>   
+            <div class="info-product">
+                <h2>Super Mario 64</h2>
+                <p class="price">$20.000</p>
+                <button class="btn-add-cart">añadir al carito</button>
+            </div>
         </div>
         <div class="cajita2">
               <a href="./descripciones/clayfighter.html"><img alt="portadadejuego" src="./img/clayfighter.jpg"></a>
-              <div class="precio">
-                $15.000
+              <div class="info-product">
+                <h2>Clayfighter</h2>
+                <p class="price">$15.000</p>
+                <button class="btn-add-cart">añadir al carito</button>
               </div>
         </div>
         <div class="cajita3">
               <a href="./descripciones/castlevania_bloodlines.html"><img alt="portadadejuego" src="./img/Castlevania.jpg"></a>
-              <div class="precio">
-                $15.000
+              <div class="info-product">
+                <h2>Catlevania</h2>
+                <p class="price">$20.000</p>
+                <button class="btn-add-cart">añadir al carito</button>
               </div>
         </div>
         <div class="cajita4">
               <a href="./descripciones/sonic_thehedgehog.html"><img alt="portadadejuego" src="./img/sonic.jpg"></a>
-              <div class="precio">
-                $27.050
+              <div class="info-product">
+                <h2>Sonic the Hedgehog</h2>
+                <p class="price">$27.000</p>
+                <button class="btn-add-cart">añadir al carito</button>
               </div>
        </div>
        </div>
@@ -48,27 +88,35 @@
          <div class="juegos">
           <div class="cajita1">
               <a href="./descripciones/metal-gear-solid.html"><img alt="portadadejuego" src="./img/metal-gear-solid.jpg"></a>
-              <div class="precio">
-                $17.500
+              <div class="info-product">
+                <h2>Metal Gear: Solid</h2>
+                <p class="price">$17.000</p>
+                <button class="btn-add-cart">añadir al carito</button>
               </div>   
             </div>
             <div class="cajita2">
                 <a href="./descripciones/zelda-ocarina-of-time.html"><img alt="portadadejuego" src="./img/zelda-ocarinaoftime.jpg"></a>
-                <div class="precio">
-                    $38.000
-                </div>
+                <div class="info-product">
+                    <h2>The Legend Of Zelda: The Ocarine Of Time</h2>
+                    <p class="price">$38.000</p>
+                    <button class="btn-add-cart">añadir al carito</button>
+                  </div>
             </div>
             <div class="cajita3">
                 <a href="./descripciones/silent-hill.html"><img alt="portadadejuego" src="./img/silent-hill.jpg"></a>
-                <div class="precio">
-                    $20.000
-                </div>
+                <div class="info-product">
+                    <h2>Silent Hill</h2>
+                    <p class="price">$20.000</p>
+                    <button class="btn-add-cart">añadir al carito</button>
+                  </div>
             </div>
             <div class="cajita4">
                 <a href="./descripciones/pepsiman.html"><img alt="portadadejuego" src="./img/pepsiman.jpg"></a>
-                <div class="precio">
-                    $25.100
-                </div>
+                <div class="info-product">
+                    <h2>Pepsiman</h2>
+                    <p class="price">$25.100</p>
+                    <button class="btn-add-cart">añadir al carito</button>
+                  </div>
             </div>
          </div>
     </section>
@@ -77,27 +125,35 @@
          <div class="juegos">
           <div class="cajita1">
               <a href="./descripciones/starfox64.html"><img alt="portadadejuego" src="./img/starfox64.jpg"></a>
-              <div class="precio">
-                $27.000
+              <div class="info-product">
+                <h2>StarFox 64</h2>
+                <p class="price">$27.000</p>
+                <button class="btn-add-cart">añadir al carito</button>
               </div>   
             </div>
             <div class="cajita2">
                 <a href="./descripciones/donkeykongcountry.html"><img alt="portadadejuego" src="./img/donkeyKongCountry.png"></a>
-                <div class="precio">
-                    $18.720
-                </div>
+                <div class="info-product">
+                    <h2>Donkey Kong Country</h2>
+                    <p class="price">$27.000</p>
+                    <button class="btn-add-cart">añadir al carito</button>
+                  </div>
             </div>
             <div class="cajita3">
                 <a href="./descripciones/metroid.html"><img alt="portadadejuego" src="./img/metroid.jpg"></a>
-                <div class="precio">
-                    $20.000
-                </div>
+                <div class="info-product">
+                    <h2>Metroid</h2>
+                    <p class="price">$20.000</p>
+                    <button class="btn-add-cart">añadir al carito</button>
+                  </div>
             </div>
             <div class="cajita4">
                 <a href="./descripciones/tetris.html"><img alt="portadadejuego" src="./img/tetris.jpg"></a>
-                <div class="precio">
-                    $17.000
-                </div>
+                <div class="info-product">
+                    <h2>Tetris</h2>
+                    <p class="price">$17.000</p>
+                    <button class="btn-add-cart">añadir al carito</button>
+                  </div>
             </div>
          </div>
     </section>
@@ -121,6 +177,7 @@
             <p class="ftexto2">copyright © Venta Retro 2024 todos los derechos reservados</p>
         </div>
     </footer>
-
+    
+    <script src="./jaascript/app.js"></script>
 </body>
 </html>
