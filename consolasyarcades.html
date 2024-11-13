@@ -1,13 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Tienda</title>
+		<link rel="stylesheet" href="./css/styles.css" />
+	</head>
+	<body>
+		<header>
+			<ul>
+				<li><h2 style="color: white;">Venta Retro</h2></li>
+				<li><a style="color: white;" href="index.html">menu</a></li>
+				<li><a style="color: white;" href="juegos.html">juegos</a></li>
+				<li><a style="color: white;" href="consolasyarcades.html">consoles y arcades</a></li>
+			</ul>
+			<div class="container-icon">
+				<div class="container-cart-icon">
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="icon-cart"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+						/>
+					</svg>
+					<div class="count-products">
+						<span id="contador-productos">0</span>
+					</div>
+				</div>
+
+				<div class="container-cart-products hidden-cart">
+					<div class="row-product hidden">
+						<div class="cart-product">
+							<div class="info-cart-product">
+								<span class="cantidad-producto-carrito">1</span>
+								<p class="titulo-producto-carrito">Zapatos Nike</p>
+								<span class="precio-producto-carrito">$80</span>
+							</div>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close"
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+						</div>
+					</div>
+
+					<div class="cart-total hidden">
+						<h3>Total:</h3>
+						<span class="total-pagar">$200</span>
+					</div>
+					<p class="cart-empty">El carrito está vacío</p>
+				</div>
+			</div>
+		</header>¡--->
+		<h1 style="color: white;">Consolas y Arcades</h1>
+		<div class="container-items">
+			<div class="juegos">
+				<div class="cajita">
+					<div class="item">
+						<figure>
+							<a href="./descripciones/consola-nes.html"><img src="./img/consola-NES.jpeg"alt="producto"/></a>
+						</figure>
+						<div class="info-product">
+							<h2>Nintendo Entertaiment System</h2>
+							<p class="price">$22.000</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="juegos">
+				<div class="cajita">
+					<div class="item">
+						<figure>
+							<a href="./descripciones/arcade-pacman.html"><img src="./img/pacman-arcade.jpg"alt="producto"/></a>
+						</figure>
+						<div class="info-product">
+							<h2>Arcade de Pac-Man</h2>
+							<p class="price">$149.250</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="juegos">
+				<div class="cajita">
+					<div class="item">
+						<figure>
+							<a href="./descripciones/consola-ps1.html"><img src="./img/consola-PS1.jpg"alt="producto"/></a>
+						</figure>
+						<div class="info-product">
+							<h2>PlayStation 1</h2>
+							<p class="price">$30.000</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="juegos">
+				<div class="cajita">
+					<div class="item">
+						<figure>
+							<a href="./descripciones/consola-segagenesis.html"><img src="./img/consola-segaGenesis.jpg"alt="producto"/></a>
+						</figure>
+						<div class="info-product">
+							<h2>Sega Genesis</h2>
+							<p class="price">$31.000s</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="juegos">
+				<div class="cajita">
+					<div class="item">
+						<figure>
+							<a href="./descripciones/atari-2600.html"><img src="./img/consola-atari2600.jpg"alt="producto"/></a>
+						</figure>
+						<div class="info-product">
+							<h2>Atari-2600</h2>
+							<p class="price">$20.000</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="juegos-A">
+				<div class="cajita">
+					<div class="item">
+						<figure>
+							<a href="./descripciones/game-y-watch.html"><img src="./img/consola-game y watch.jpg"alt="producto"/></a>
+						</figure>
+						<div class="info-product">
+							<h2>Game & Watch</h2>
+							<p class="price">$56.314</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="juegos">
+				<div class="cajita">
+					<div class="item">
+						<figure>
+							<a href="./descripciones/game-boy.html"><img src="./img/consola-GameBoy.jpg"alt="producto"/></a>
+						</figure>
+						<div class="info-product">
+							<h2>Game Boy</h2>
+							<p class="price">$27.500</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="juegos">
+				<div class="cajita">
+					<div class="item">
+						<figure>
+							<a href="./descripciones/arcade-mortal-kombat2.html"><img src="./img/arcade-mortalkombat2.jpg"alt="producto"/></a>
+						</figure>
+						<div class="info-product">
+							<h2>Arcade de Mortal Kombat 2</h2>
+							<p class="price">$147.200</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="juegos">
+				<div class="cajita">
+					<div class="item">
+						<figure>
+							<a href="./descripciones/arcade-streetfighter2.html"><img src="./img/arcade-streetfighter2.jfif"alt="producto"/></a>
+						</figure>
+						<div class="info-product">
+							<h2>Arcade de Street Fighter 2</h2>
+							<p class="price">$149.250</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--<div class="juegos">
+				<div class="cajita">
+					<div class="item">
+						<figure>
+							<img
+								src="./img/donkeyKongCountry.png"
+								alt="producto"
+							/>
+						</figure>
+						<div class="info-product">
+							<h2>Donkey Kong: Country</h2>
+							<p class="price">$50</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="juegos">
+				<div class="cajita">
+					<div class="item">
+						<figure>
+							<img
+								src="./img/metroid.jpg"
+								alt="producto"
+							/>
+						</figure>
+						<div class="info-product">
+							<h2>Metroid</h2>
+							<p class="price">$50</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="juegos">
+				<div class="cajita">
+					<div class="item">
+						<figure>
+							<img
+								src="./img/tetris.jpg"
+								alt="producto"
+							/>
+						</figure>
+						<div class="info-product">
+							<h2>Tetris</h2>
+							<p class="price">$50</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+			</div>-->
+		</div>
+		<footer>
+			<div class="f0">
+				<div class="f1">
+					<div class="div-del-div">
+						<p class="ftexto1">DIRECCION</p>
+						<p class="ftexto1">a una cuadra de la plaza sesamo</p>
+					</div>
+				 
+				</div>
+				<div class="f2">
+					<div class="div-del-div">
+						<p class="ftexto1">REDES</p>
+						<p class="ftexto1">no disponibles</p>
+					</div>
+				</div>
+			</div>
+			<div class="f3">
+				<p class="ftexto2">copyright © Venta Retro 2024 todos los derechos reservados</p>
+			</div>
+		</footer>
+		<script src="./jaascript/index.js"></script>
+	</body>
+</html>
+
+
+<!--<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Consolas y Arcades</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <nav>
+    <header>
+        <ul>
+            <li><h2 style="color: white;">Venta Retro</h2></li>
+            <li><a style="color: white;" href="index.html">menu</a></li>
+            <li><a style="color: white;" href="juegos.html">juegos</a></li>
+            <li><a style="color: white;" href="consolasyarcades.html">consoles y arcades</a></li>
+        </ul>
+        <div class="container-icon">
+            <div class="container-cart-icon">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="icon-cart"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+                    />
+                </svg>
+                <div class="count-products">
+                    <span id="contador-productos">0</span>
+                </div>
+            </div>
+
+            <div class="container-cart-products hidden-cart">
+                <div class="row-product hidden">
+                    <div class="cart-product">
+                        <div class="info-cart-product">
+                            <span class="cantidad-producto-carrito">1</span>
+                            <p class="titulo-producto-carrito">Zapatos Nike</p>
+                            <span class="precio-producto-carrito">$80</span>
+                        </div>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            class="icon-close"
+                        >
+                            <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                d="M6 18L18 6M6 6l12 12"
+                            />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="cart-total hidden">
+                    <h3>Total:</h3>
+                    <span class="total-pagar">$200</span>
+                </div>
+                <p class="cart-empty">El carrito está vacío</p>
+            </div>
+        </div>
+    </header>¡--->
+    <!--<nav>
         <ul>
             <li><a style="color: white;" href="index.html">menu</a></li>
             <li><a style="color: white;" href="juegos.html">juegos</a></li>
@@ -46,7 +386,7 @@
             </div>
         </ul>
     </nav>!--->
-    <section class="seccion3">
+    <!--<section class="seccion3">
       <h1 style="color: white;">CONSOLAS Y ARCADES</h1>
        <div class="juegos">
         <div class="cajita1">
@@ -149,7 +489,7 @@
                     precio $
                 </div> 
             </div>--->
-        </div>
+       <!---</div>
     </section>
     <footer>
         <div class="f0">
@@ -172,6 +512,6 @@
         </div>
     </footer>
 
-    <script src="./jaascript/app.js"></script>
+    <script src="./jaascript/index.js"></script>
 </body>
-</html>
+</html>-->
