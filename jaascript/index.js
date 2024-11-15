@@ -125,3 +125,11 @@ const showHTML = () => {
 	valorTotal.innerText = `$${total}`;
 	countProducts.innerText = totalOfProducts;
 };
+
+/*window.addEventListener("load", function() {
+
+})*/
+
+document.getElementById("B-compra").addEventListener("click", function() {
+	alert("ya has realizado la compra");
+})
