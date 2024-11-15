@@ -340,6 +340,7 @@ nav ul li {
     height: 100vh;
     width: 100vw;
     margin-top: 4ch;
+    margin-bottom: 11ch;
 }
 
 textarea{
@@ -452,7 +453,7 @@ textarea{
     border-radius: 10px;
 }*/
 
-.cajita6 {
+/*/.cajita6 {
     background-color:lightgray;
     width: 280px;
     height: 280px;
@@ -522,7 +523,7 @@ textarea{
     width: 280px;
     height: 280px;
     border-radius: 10px;
-}
+}*/
 
 body {
    background-color: black;
@@ -552,7 +553,7 @@ h2 {
 }
 
 .titulo3 {
-    margin-top: 26ch;
+    margin-top: 29ch;
 }
 
 body {
@@ -568,6 +569,11 @@ hr {
     width: 60vw;
     margin-left: 17ch;
     margin-top: 3ch;
+    margin-bottom: 2ch;
+}
+
+#h3-DK{
+    margin-bottom: 2ch;
 }
 
 .seccion3 {
@@ -598,7 +604,7 @@ footer {
     transform: translate(-1px, -1px);
     margin-top: 8%;
 }
- 
+
 .f0 {
     border: 1px solid black;
     align-items: center;
@@ -803,9 +809,25 @@ input{
 }
 
 .comprar{
-    width: 200px;
-    height: 50px;
+    width: 250px;
+    height: 48px;
     margin-top: 20px;
+    border: 2px solid black;
+    background-color:white;
+    color:#000;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+#descripcion-C{
+    width: 220px;
+    height: 48px;
+    margin-top: 20px;
+    border: 2px solid black;
+    background-color:white;
+    color:#000;
+    padding: 15px 10px;
+    cursor: pointer;
 }
 
 h3 {
